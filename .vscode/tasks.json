@@ -1,0 +1,44 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "C:\\MinGW\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "main.cpp",
+                "-o", 
+                "C:/Users/Diego/devDiego/praticas/CompGrafica/build/main",
+                "-lmingw32",
+                "-lopengl32",
+                "-lglew32",
+                "-lglew32mx",
+                "-lglu32",
+                "-lSDL2main",
+                "-lSDL2",
+                "-lSDL2_image",
+                "-lSDL2_ttf"
+                // "${file}",
+                // "-o",
+                // "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tarefa gerada pelo Depurador."
+        }
+    ],
+    "command": "g++",
+    "version": "2.0.0",
+    "problemMatchers": [
+        "$gcc"
+    ]
+}
